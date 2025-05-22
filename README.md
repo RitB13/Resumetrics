@@ -1,30 +1,32 @@
-# Full Stack Resume App
+# Resumetrics
 
-*Automatically synced with your [v0.dev](https://v0.dev) deployments*
+An **AI-powered Application Tracking System platform** that allows users to upload their resumes and match them with job descriptions using intelligent backend processing.
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/ritb13s-projects/v0-full-stack-resume-app)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.dev-black?style=for-the-badge)](https://v0.dev/chat/projects/1stGUwl89Bv)
+## 📌 Overview
 
-## Overview
+This project is a resume-job matcher tool built using a modern full-stack architecture. It provides a seamless interface for users to upload resumes, and the backend handles parsing and comparison with job descriptions to assist in recruitment or self-assessment.
 
-This repository will stay in sync with your deployed chats on [v0.dev](https://v0.dev).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.dev](https://v0.dev).
+## 🛠 Tech Stack
 
-## Deployment
+### Frontend
+- **Next.js**: For building the user interface and routing.
+- **React**: Component-based frontend library.
+- **JavaScript / TypeScript**: For interactive logic.
+- **FormData API**: For handling file uploads.
 
-Your project is live at:
+### Backend
+- **FastAPI**: High-performance Python framework used to build RESTful APIs.
+- **Uvicorn**: ASGI server to run the FastAPI application.
+- **Python-Multipart**: Handles file uploads in FastAPI.
 
-**[https://vercel.com/ritb13s-projects/v0-full-stack-resume-app](https://vercel.com/ritb13s-projects/v0-full-stack-resume-app)**
+### Communication
+- **REST API**: Frontend communicates with backend via HTTP POST requests.
+- **CORS**: Configured to allow cross-origin requests from frontend to backend.
 
-## Build your app
+## 🔧 Functionality
 
-Continue building your app on:
+- Upload resumes in supported formats.
+- Input job descriptions for comparison.
+- FastAPI backend handles parsing and logic.
+- Clean UI with responsive design.
 
-**[https://v0.dev/chat/projects/1stGUwl89Bv](https://v0.dev/chat/projects/1stGUwl89Bv)**
-
-## How It Works
-
-1. Create and modify your project using [v0.dev](https://v0.dev)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
